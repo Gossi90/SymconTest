@@ -57,6 +57,7 @@
 				'redirectUri'             => $this->Register(),
 				'urlAuthorize'            => $this->ReadPropertyString("AuthorizeUri"),
 				'urlAccessToken'          => $this->ReadPropertyString("TokenUri"),
+				'scopes'        	  => $this->ReadPropertyString("Scopes"),
 				'urlResourceOwnerDetails' => null,
 			]);
 
